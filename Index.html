@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASTER PREDICTIONS</title>
+    <style>
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background-color: #f4f4f7; margin: 0; padding: 0; color: #333; }
+        
+        .main-header { background: #d32f2f; color: white; text-align: center; padding: 25px 0; }
+        .main-header h1 { margin: 0; font-size: 28px; font-weight: 800; letter-spacing: 1.5px; }
+        .update-time { font-size: 11px; opacity: 0.8; margin-top: 5px; display: block; }
+
+        .top-nav { background: white; padding: 12px; display: flex; justify-content: flex-end; gap: 10px; border-bottom: 1px solid #ddd; }
+        .nav-btn { text-decoration: none; padding: 8px 15px; border-radius: 5px; font-size: 13px; font-weight: bold; color: white; }
+        .btn-tips { background: #e53935; }
+        .btn-comp { background: #d32f2f; }
+
+        .days-container { display: flex; gap: 10px; padding: 15px; overflow-x: auto; background: white; border-bottom: 1px solid #eee; }
+        .day { background: #eee; padding: 8px 20px; border-radius: 20px; font-size: 13px; font-weight: bold; white-space: nowrap; }
+        .day.active { background: #333; color: white; }
+
+        .content { margin: 10px; }
+        table { width: 100%; border-collapse: collapse; background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        
+        thead { background: #f8f9fa; border-bottom: 2px solid #eee; }
+        th { padding: 15px 5px; font-size: 10px; color: #888; text-transform: uppercase; text-align: center; }
+        th.align-left { text-align: left; padding-left: 15px; }
+
+        td { padding: 15px 5px; border-bottom: 1px solid #f1f1f1; text-align: center; font-size: 14px; vertical-align: middle; }
+        
+        .match-info { text-align: left; padding-left: 15px; min-width: 120px; }
+        .league { font-size: 9px; color: #999; font-weight: bold; display: block; }
+        .team-name { display: block; font-weight: 700; color: #d32f2f; font-size: 14px; }
+
+        .h2h-container { display: flex; gap: 6px; justify-content: center; }
+        .h2h-column { display: flex; flex-direction: column; align-items: center; gap: 2px; }
+        .h2h-date { font-size: 8px; color: #999; font-weight: bold; }
+        .h2h-item { background: #f0f0f0; padding: 4px; border-radius: 4px; font-size: 11px; font-weight: bold; color: #555; border: 1px solid #e0e0e0; min-width: 25px; line-height: 1.2; }
+
+        .pred-stack { display: flex; flex-direction: column; gap: 3px; align-items: center; }
+        .pred-opt { background: #ffc107; color: #000; width: 65px; padding: 4px 0; border-radius: 4px; font-weight: 900; font-size: 11px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+
+        .time-box { font-weight: bold; color: #333; font-size: 12px; }
+
+        .ad-space { background: #fffbe6; border: 2px dashed #ffe58f; margin: 15px 0; padding: 20px; text-align: center; border-radius: 10px; font-weight: bold; color: #856404; font-size: 13px; }
+    </style>
+</head>
+<body>
+
+    <div class="main-header">
+        <h1>MASTER PREDICTIONS</h1>
+        <span class="update-time">Inajiuisha yenyewe kila saa sita</span>
+    </div>
+
+    <div class="top-nav">
+        <a href="#" class="nav-btn btn-tips">Free Tips</a>
+        <a href="#" class="nav-btn btn-comp">Bet Companies</a>
+    </div>
+
+    <div class="days-container">
+        <div class="day active">Today</div>
+    </div>
+
+    <div class="content">
+        <table>
+            <thead>
+                <tr>
+                    <th class="align-left">Matches</th>
+                    <th>H2H (Last 4)</th>
+                    <th>Predictions</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                </tbody>
+        </table>
+
+        <div class="ad-space">
+            WEKA CODE YA TANGAZO (BANNER) HAPA
+        </div>
+    </div>
+
+</body>
+</html>
